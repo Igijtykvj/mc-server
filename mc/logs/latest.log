@@ -1,400 +1,268 @@
-[12:31:40] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-Ubuntu-1ubuntu224.04; Ubuntu null) on Linux 6.2.1-PRoot-Distro (aarch64)
-[12:31:40] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[12:31:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:31:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[12:31:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - Chunky (1.4.10), DeathChest (2.2.7), Geyser-Spigot (2.4.3-SNAPSHOT), InstantRestock (2.4.3), SkinsRestorer (15.4.3), TreeFella (1.2)
-[12:31:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:31:56] [ServerMain/INFO]: Loaded 1290 recipes
-[12:31:57] [ServerMain/INFO]: Loaded 1400 advancements
-[12:31:57] [Server thread/INFO]: Starting minecraft server version 1.21
-[12:31:57] [Server thread/WARN]: ****************************
-[12:31:57] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[12:31:57] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[12:31:57] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[12:31:57] [Server thread/WARN]: ****************************
-[12:31:57] [Server thread/INFO]: Loading properties
-[12:31:57] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[12:31:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:31:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:31:59] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:32:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
-[12:32:01] [Server thread/INFO]: Default game type: SURVIVAL
-[12:32:01] [Server thread/INFO]: Generating keypair
-[12:32:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:32:01] [Server thread/INFO]: Using epoll channel type
-[12:32:01] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
-[12:32:01] [Server thread/INFO]: Paper: Using OpenSSL (Linux aarch64) cipher from Velocity.
-[12:32:01] [Server thread/WARN]: [io.netty.util.internal.MacAddressUtil] Failed to find a usable hardware address from the network interfaces; using random bytes: 65:43:f4:ee:71:58:28:05
-[12:32:01] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
-[12:32:03] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /data/data/com.termux/files/home/mc/server/mc/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
-[12:32:04] [Server thread/INFO]: [TreeFella] Loading server plugin TreeFella v1.2
-[12:32:04] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.3
-[12:32:04] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.4.3
-[12:32:04] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
-[12:32:04] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
-[12:32:04] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.3-SNAPSHOT
-[12:32:12] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[12:32:12] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[12:32:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:32:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.3
-[12:32:14] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[12:32:16] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[12:32:20] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[12:32:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:32:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:32:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:32:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:32:20] [Server thread/INFO]: Preparing level "world"
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.3
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 4aa9140
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[12:32:20] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[12:32:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:32:23] [Server thread/INFO]: Time elapsed: 1945 ms
-[12:32:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:32:24] [Server thread/INFO]: Time elapsed: 676 ms
-[12:32:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:32:24] [Server thread/INFO]: Time elapsed: 248 ms
-[12:32:24] [Server thread/INFO]: [TreeFella] Enabling TreeFella v1.2
-[12:32:24] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.4.3
-[12:32:28] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
-[12:32:29] [Server thread/INFO]: [DeathChest] 2 death chests loaded in world "world"
-[12:32:29] [Server thread/INFO]: [DeathChest]   Of these 2 have expired
-[12:32:29] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
-[12:32:29] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[12:32:29] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
-[12:32:29] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[12:32:30] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
-[12:32:30] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.3-SNAPSHOT
-[12:32:32] [Server thread/INFO]: [spark] Starting background profiler...
-[12:32:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[12:32:33] [Server thread/INFO]: [Geyser-Spigot] 
-[12:32:33] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.3-b689 (git-master-d64c0b3)
-[12:32:33] [Server thread/INFO]: [Geyser-Spigot] 
-[12:32:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[12:33:02] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[12:33:02] [Server thread/INFO]: [Geyser-Spigot] Done (28.917s)! Run /geyser help for help!
-[12:33:02] [Server thread/INFO]: Done preparing level "world" (42.732s)
-[12:33:02] [Server thread/INFO]: Running delayed init tasks
-[12:33:03] [Server thread/INFO]: Done (85.779s)! For help, type "help"
-[12:33:03] [Server thread/INFO]: Timings Reset
-[12:33:03] [Server thread/INFO]: Added HopeHarbinger to the whitelist
-[12:33:03] [Server thread/INFO]: Player is already whitelisted
-[12:33:10] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Trthanh1006
-[12:33:10] [localSession-7-2/INFO]: [Geyser-Spigot] Trthanh1006 (logged in as: Trthanh1006) has connected to the Java server
-[12:33:12] [User Authenticator #0/INFO]: UUID of player Trthanh1006 is 1c15c538-d2a7-314d-93c3-d6527b289eae
-[12:33:13] [Server thread/INFO]: Trthanh1006 joined the game
-[12:33:13] [Server thread/INFO]: Trthanh1006[/58.186.69.73:0] logged in with entity id 61 at ([world]-1377.5269, 72.9375, 380.9609)
-[12:33:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2573ms or 51 ticks behind
-[12:37:11] [Server thread/WARN]: Trthanh1006 moved wrongly!
-[12:37:53] [localSession-7-2/INFO]: [Geyser-Spigot] Trthanh1006 has disconnected from the Java server because of Bedrock client disconnected
-[12:37:53] [Server thread/INFO]: Trthanh1006 lost connection: Disconnected
-[12:37:53] [Server thread/INFO]: Trthanh1006 left the game
-[12:38:07] [User Authenticator #1/INFO]: UUID of player mrttty is ab7cb24f-e77d-3b4c-87ff-955363a5f48f
-[12:38:08] [Server thread/INFO]: mrttty joined the game
-[12:38:08] [Server thread/INFO]: mrttty[/117.5.152.126:52244] logged in with entity id 1007 at ([world]-1352.943999028415, 112.0, 434.07181146855373)
-[12:38:17] [Server thread/INFO]: [Not Secure] [Server] wtf
-[12:38:24] [Async Chat Thread - #0/INFO]: [Not Secure] <mrttty> ??
-[12:38:32] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Trthanh1006
-[12:38:32] [localSession-7-3/INFO]: [Geyser-Spigot] Trthanh1006 (logged in as: Trthanh1006) has connected to the Java server
-[12:38:32] [Server thread/INFO]: [Not Secure] [Server] thang thanh vua nay move wrongly xong bay mau luon a
-[12:38:33] [User Authenticator #1/INFO]: UUID of player Trthanh1006 is 1c15c538-d2a7-314d-93c3-d6527b289eae
-[12:38:33] [Server thread/INFO]: Trthanh1006 joined the game
-[12:38:33] [Server thread/INFO]: Trthanh1006[/58.186.69.73:0] logged in with entity id 1322 at ([world]-1333.8732, 111.0, 434.69287)
-[12:38:38] [Server thread/INFO]: [Not Secure] [Server] lmao=)))
-[12:38:52] [Async Chat Thread - #0/INFO]: [Not Secure] <mrttty> server la tk d nao
-[12:39:03] [Server thread/INFO]: Expected integer
-...t:diamond *16<--[HERE]
-[12:39:06] [Server thread/INFO]: Gave 16 [Diamond] to Trthanh1006
-[12:39:14] [Server thread/INFO]: [Not Secure] [Server] la thang chu sivi chu thang deo nao
-[12:39:33] [Server thread/INFO]: Trthanh1006 has made the advancement [Take Aim]
-[12:39:41] [Async Chat Thread - #1/INFO]: [Not Secure] <mrttty> ko để tên sợ ko ai biết à
-[12:39:46] [Async Chat Thread - #0/INFO]: [Not Secure] <mrttty> oai
-[12:40:05] [Async Chat Thread - #0/INFO]: [Not Secure] <Trthanh1006> vào discord đi ccu
-[12:40:05] [Server thread/INFO]: [Not Secure] [Server] vcl t chat tu command ben sivi side thi de ten the cho nao=))))
-[12:40:10] [Async Chat Thread - #1/INFO]: [Not Secure] <Trthanh1006> giang mai
-[12:40:36] [Async Chat Thread - #0/INFO]: [Not Secure] <mrttty> bao nhiêu lúa v
-[12:40:41] [Async Chat Thread - #1/INFO]: [Not Secure] <mrttty> thanh
-[12:40:48] [Async Chat Thread - #1/INFO]: [Not Secure] <Trthanh1006> many
-[12:40:55] [Async Chat Thread - #1/INFO]: [Not Secure] <Trthanh1006> trồng lại đe
-[12:41:36] [Async Chat Thread - #1/INFO]: [Not Secure] <Trthanh1006> ê
-[12:41:39] [Async Chat Thread - #1/INFO]: [Not Secure] <Trthanh1006> giang mai
-[12:41:47] [Async Chat Thread - #1/INFO]: [Not Secure] <mrttty> ?
-[12:41:47] [Async Chat Thread - #1/INFO]: [Not Secure] <Trthanh1006> đi làm hàng rào hộ t
-[12:41:52] [Async Chat Thread - #1/INFO]: [Not Secure] <Trthanh1006> xong ném cho t
-[12:45:45] [Async Chat Thread - #2/INFO]: [Not Secure] <mrttty> tk chu sever co mednding chua
-[12:45:51] [Async Chat Thread - #2/INFO]: [Not Secure] <mrttty> t bán rẻ
-[12:46:04] [Async Chat Thread - #2/INFO]: [Not Secure] <Trthanh1006> nó có r
-[12:47:42] [Async Chat Thread - #4/INFO]: [Not Secure] <Trthanh1006> giang mai m lm xong chx
-[12:47:51] [Async Chat Thread - #4/INFO]: [Not Secure] <mrttty> dang trong lua
-[12:47:56] [Async Chat Thread - #4/INFO]: [Not Secure] <Trthanh1006> đi lấy 2 xô lava về đi
-[12:48:23] [Async Chat Thread - #4/INFO]: [Not Secure] <Trthanh1006> ok
-[12:49:14] [Async Chat Thread - #4/INFO]: [Not Secure] <mrttty> dmm
-[12:49:42] [Async Chat Thread - #4/INFO]: [Not Secure] <mrttty> vl 5 tk vigh
-[12:50:03] [Async Chat Thread - #4/INFO]: [Not Secure] <Trthanh1006> chạy lẹ
-[12:50:24] [Async Chat Thread - #4/INFO]: [Not Secure] <mrttty> no roi thuốc bad omen chơi ko :)
-[12:50:36] [Async Chat Thread - #4/INFO]: [Not Secure] <Trthanh1006> sợ nó dính luôn vào m
-[12:51:31] [Async Chat Thread - #4/INFO]: [Not Secure] <mrttty> ;)
-[12:51:51] [Async Chat Thread - #4/INFO]: [Not Secure] <mrttty> cat thuoc di
-[12:52:01] [Async Chat Thread - #4/INFO]: [Not Secure] <Trthanh1006> ok r
-[12:53:04] [Async Chat Thread - #7/INFO]: [Not Secure] <mrttty> cn dit nhau r
-[12:55:01] [Async Chat Thread - #9/INFO]: [Not Secure] <mrttty> cho cn ca rot cx sinh sanr day
-[12:57:27] [Async Chat Thread - #11/INFO]: [Not Secure] <Trthanh1006> giangg maiii
-[12:57:34] [Async Chat Thread - #11/INFO]: [Not Secure] <Trthanh1006> s m k trồng nốt đii
-[12:57:45] [Async Chat Thread - #12/INFO]: [Not Secure] <mrttty> quen
-[12:58:00] [Async Chat Thread - #12/INFO]: [Not Secure] <Trthanh1006> xuong lam viec
-[13:02:14] [Async Chat Thread - #13/INFO]: [Not Secure] <Trthanh1006> lại đâu r:))
-[13:02:31] [Async Chat Thread - #13/INFO]: [Not Secure] <mrttty> t dang trade
-[13:02:42] [Async Chat Thread - #13/INFO]: [Not Secure] <mrttty> mang het lua len day
-[13:03:22] [Async Chat Thread - #13/INFO]: [Not Secure] <Trthanh1006> m lm xong ruộng di r tính
-[13:03:24] [Async Chat Thread - #13/INFO]: [Not Secure] <Trthanh1006> má
-[13:03:29] [Async Chat Thread - #13/INFO]: [Not Secure] <Trthanh1006> lam nửa vòi v
-[13:03:40] [Async Chat Thread - #13/INFO]: [Not Secure] <mrttty> vl
-[13:03:42] [User Authenticator #2/INFO]: UUID of player ThangDoiThuong is ff4ba738-710d-3ae6-8f8d-bf404be1cee6
-[13:03:43] [Server thread/INFO]: ThangDoiThuong joined the game
-[13:03:43] [Server thread/INFO]: ThangDoiThuong[/117.5.153.48:35422] logged in with entity id 6949 at ([world]-1350.8317259440348, 113.0, 438.7834030371098)
-[13:03:56] [Async Chat Thread - #13/INFO]: [Not Secure] <mrttty> t ban chuan vc
-[13:04:15] [Async Chat Thread - #13/INFO]: [Not Secure] <Trthanh1006> dưng ở trên bắn đ dính thì ngu
-[13:04:18] [Async Chat Thread - #13/INFO]: [Not Secure] <Trthanh1006> t đứng yên r
-[13:04:55] [Async Chat Thread - #13/INFO]: [Not Secure] <Trthanh1006> ngủ
-[13:05:27] [Async Chat Thread - #13/INFO]: [Not Secure] <Trthanh1006> ai còn đá cuội k
-[13:05:45] [Async Chat Thread - #13/INFO]: [Not Secure] <Trthanh1006> t cần ít
-[13:05:46] [Async Chat Thread - #13/INFO]: [Not Secure] <ThangDoiThuong> lò đâu hết r
-[13:05:54] [Async Chat Thread - #13/INFO]: [Not Secure] <Trthanh1006> đ bt thg nào beck r
-[13:06:13] [Async Chat Thread - #13/INFO]: [Not Secure] <Trthanh1006> có lò thịt t ms làm
-[13:07:48] [User Authenticator #3/INFO]: UUID of player shuynz is ddd33d19-8be9-3ba1-9ca8-e94dfb67179c
-[13:07:49] [Server thread/INFO]: shuynz joined the game
-[13:07:49] [Server thread/INFO]: shuynz[/117.5.51.92:53273] logged in with entity id 7511 at ([world]-1320.8313928514588, 107.0, 449.91036614611136)
-[13:08:29] [Async Chat Thread - #15/INFO]: [Not Secure] <Trthanh1006> để đá cho t nha
-[13:08:48] [Async Chat Thread - #15/INFO]: [Not Secure] <Trthanh1006> ô vl
-[13:08:56] [Async Chat Thread - #16/INFO]: [Not Secure] <Trthanh1006> qua thg phú bắt dân làng về r
-[13:09:19] [User Authenticator #4/INFO]: UUID of player uncleten is c0de936b-7a76-33ae-83be-d3187dbc94ad
-[13:09:20] [Server thread/INFO]: uncleten joined the game
-[13:09:20] [Server thread/INFO]: uncleten[/104.28.219.201:15459] logged in with entity id 7704 at ([world]-1352.4412917496124, 112.0, 426.59399025281573)
-[13:11:27] [User Authenticator #5/INFO]: UUID of player YarieRie is 0366cb7f-b754-3157-ad95-68face366bce
-[13:11:28] [Server thread/INFO]: YarieRie joined the game
-[13:11:28] [Server thread/INFO]: YarieRie[/42.116.243.47:42235] logged in with entity id 8110 at ([world]-1351.9581954921528, 112.9375, 441.2093207220341)
-[13:12:54] [Server thread/INFO]: YarieRie issued server command: /skins
-[13:13:02] [Folia Async Scheduler Thread #3/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:13:09] [Server thread/INFO]: YarieRie issued server command: /skin
-[13:13:35] [Server thread/INFO]: YarieRie issued server command: /skin search
-[13:14:21] [Server thread/INFO]: YarieRie issued server command: /skin
-[13:14:37] [Server thread/INFO]: YarieRie issued server command: /skin set wolfamour
-[13:18:00] [Async Chat Thread - #17/INFO]: [Not Secure] <Trthanh1006> ai đi lấy lava đi
-[13:18:04] [Async Chat Thread - #17/INFO]: [Not Secure] <Trthanh1006> làm máy fa
-[13:18:56] [Server thread/INFO]: There are 6 of a max of 10 players online: mrttty, Trthanh1006, ThangDoiThuong, shuynz, uncleten, YarieRie
-[13:19:14] [Server thread/INFO]: YarieRie issued server command: /skin
-[13:19:15] [User Authenticator #6/INFO]: UUID of player igijtykvj is 163965ef-3182-3db3-a03c-c11dd8364333
-[13:19:15] [Server thread/INFO]: igijtykvj joined the game
-[13:19:15] [Server thread/INFO]: igijtykvj[/192.168.1.1:59906] logged in with entity id 10207 at ([world]3646.6814602665327, 122.0, 2351.530020391884)
-[13:19:18] [Server thread/INFO]: YarieRie issued server command: /skins
-[13:19:41] [Server thread/INFO]: YarieRie issued server command: /skins
-[13:21:06] [Async Chat Thread - #19/INFO]: [Not Secure] <uncleten> keo
-[13:21:10] [Server thread/INFO]: YarieRie issued server command: /skin
-[13:21:14] [Async Chat Thread - #19/INFO]: [Not Secure] <ThangDoiThuong> nem cai keo ra dau
-[13:21:25] [Server thread/INFO]: YarieRie issued server command: /skin search boi
-[13:21:25] [Server thread/INFO]: igijtykvj issued server command: /gamemode spectator
-[13:21:25] [Server thread/INFO]: [igijtykvj: Set own game mode to Spectator Mode]
-[13:21:26] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
-[13:21:26] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
-[13:21:32] [Server thread/INFO]: Made igijtykvj no longer a server operator
-[13:21:35] [Server thread/INFO]: YarieRie issued server command: /skins
-[13:21:35] [Server thread/INFO]: igijtykvj issued server command: /skins
-[13:21:58] [Async Chat Thread - #20/INFO]: [Not Secure] <ThangDoiThuong> trả kéo cho bố m
-[13:22:58] [Async Chat Thread - #21/INFO]: [Not Secure] <Trthanh1006> rương
-[13:23:44] [localSession-7-3/INFO]: [Geyser-Spigot] Trthanh1006 has disconnected from the Java server because of Bedrock client disconnected
-[13:23:44] [Server thread/INFO]: Trthanh1006 lost connection: Disconnected
-[13:23:44] [Server thread/INFO]: Trthanh1006 left the game
-[13:26:14] [Server thread/INFO]: shuynz was shot by Skeleton
-[13:29:51] [Server thread/INFO]: uncleten has made the advancement [Hot Stuff]
-[13:31:49] [Server thread/INFO]: uncleten tried to swim in lava
-[13:32:17] [Server thread/INFO]: shuynz was slain by Zombie
-[13:36:48] [Server thread/INFO]: YarieRie has made the advancement [Crafting a New Look]
-[13:37:32] [Server thread/INFO]: uncleten has made the advancement [Ice Bucket Challenge]
-[13:42:06] [Server thread/INFO]: igijtykvj tried to swim in lava
-[13:43:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2527ms or 50 ticks behind
-[13:44:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2616ms or 52 ticks behind
-[13:44:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6773ms or 135 ticks behind
-[13:44:25] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Trthanh1006
-[13:44:25] [localSession-7-4/INFO]: [Geyser-Spigot] Trthanh1006 (logged in as: Trthanh1006) has connected to the Java server
-[13:44:26] [User Authenticator #7/INFO]: UUID of player Trthanh1006 is 1c15c538-d2a7-314d-93c3-d6527b289eae
-[13:44:26] [Server thread/INFO]: Trthanh1006 joined the game
-[13:44:26] [Server thread/INFO]: Trthanh1006[/58.186.69.73:0] logged in with entity id 28232 at ([world]-1358.8422, 102.5, 404.95294)
-[13:45:37] [Server thread/WARN]: Trthanh1006 moved wrongly!
-[13:45:38] [Server thread/WARN]: Trthanh1006 moved wrongly!
-[13:45:38] [Server thread/WARN]: Trthanh1006 moved wrongly!
-[13:45:38] [Server thread/WARN]: Trthanh1006 moved wrongly!
-[13:45:38] [Server thread/WARN]: Trthanh1006 moved wrongly!
-[13:46:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2899ms or 57 ticks behind
-[13:46:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7427ms or 148 ticks behind
-[13:47:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5409ms or 108 ticks behind
-[13:47:45] [Server thread/INFO]: igijtykvj has made the advancement [Diamonds!]
-[13:50:25] [Server thread/INFO]: Made igijtykvj a server operator
-[13:50:28] [Server thread/INFO]: igijtykvj issued server command: /gamemode spectator
-[13:50:28] [Server thread/INFO]: [igijtykvj: Set own game mode to Spectator Mode]
-[13:50:36] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
-[13:50:36] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
-[13:53:22] [Server thread/INFO]: uncleten tried to swim in lava
-[13:53:56] [Server thread/INFO]: igijtykvj issued server command: /gamemode spectator
-[13:53:56] [Server thread/INFO]: [igijtykvj: Set own game mode to Spectator Mode]
-[13:54:49] [Server thread/INFO]: uncleten tried to swim in lava
-[13:55:11] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
-[13:55:11] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
-[13:55:24] [Server thread/INFO]: uncleten tried to swim in lava
-[13:55:46] [Server thread/INFO]: Trthanh1006 fell from a high place
-[13:56:12] [Server thread/INFO]: igijtykvj issued server command: /gamemode spectator
-[13:56:12] [Server thread/INFO]: [igijtykvj: Set own game mode to Spectator Mode]
-[13:56:32] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
-[13:56:32] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
-[13:59:01] [Server thread/INFO]: igijtykvj issued server command: /gamemode spectator
-[13:59:01] [Server thread/INFO]: [igijtykvj: Set own game mode to Spectator Mode]
-[13:59:09] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
-[13:59:09] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
-[13:59:59] [Server thread/INFO]: shuynz was blown up by Creeper
-[14:00:19] [Server thread/INFO]: shuynz was blown up by Creeper
-[14:00:41] [Server thread/INFO]: shuynz issued server command: /tp shuynz -1071.5 -49 621.5
-[14:00:56] [Server thread/INFO]: ThangDoiThuong fell from a high place
-[14:01:32] [Server thread/WARN]: Trthanh1006 moved wrongly!
-[14:01:32] [Server thread/WARN]: Trthanh1006 moved wrongly!
-[14:02:52] [Server thread/INFO]: shuynz fell from a high place
-[14:04:04] [Async Chat Thread - #23/INFO]: [Not Secure] <igijtykvj> ae lay sach k, t fai co chuc stack day
-[14:04:09] [Async Chat Thread - #23/INFO]: [Not Secure] <igijtykvj> trade
-[14:08:19] [Server thread/INFO]: YarieRie tried to swim in lava
-[14:09:49] [Server thread/INFO]: igijtykvj was slain by Iron Golem
-[14:11:41] [Server thread/INFO]: igijtykvj issued server command: /msg YarieRie co que lua khum
-[14:12:12] [Server thread/INFO]: YarieRie issued server command: /tell igijtykvj ??
-[14:12:28] [Server thread/INFO]: igijtykvj issued server command: /msg YarieRie co khum
-[14:12:36] [Async Chat Thread - #26/INFO]: [Not Secure] <YarieRie> que lua a
-[14:12:38] [Async Chat Thread - #25/INFO]: [Not Secure] <YarieRie> 3 cai
-[14:12:41] [Async Chat Thread - #25/INFO]: [Not Secure] <igijtykvj> xin voi
-[14:12:45] [Async Chat Thread - #25/INFO]: [Not Secure] <igijtykvj> co fortress khum
-[14:12:51] [Server thread/INFO]: YarieRie issued server command: /tell igijtykvj dang duoi
-[14:12:56] [Server thread/INFO]: YarieRie issued server command: /tell igijtykvj dia nguc
-[14:12:57] [Async Chat Thread - #26/INFO]: [Not Secure] <igijtykvj> where u
-[14:13:09] [Server thread/INFO]: igijtykvj issued server command: /msg YarieRie e nma duc bedrock kieu j nhe
-[14:13:59] [Server thread/INFO]: mrttty was slain by ThangDoiThuong
-[14:15:09] [Server thread/INFO]: mrttty was shot by Skeleton
-[14:16:32] [Server thread/INFO]: shuynz lost connection: Disconnected
-[14:16:32] [Server thread/INFO]: shuynz left the game
-[14:21:14] [localSession-7-4/INFO]: [Geyser-Spigot] Trthanh1006 has disconnected from the Java server because of Bedrock client disconnected
-[14:21:14] [Server thread/INFO]: Trthanh1006 lost connection: Disconnected
-[14:21:14] [Server thread/INFO]: Trthanh1006 left the game
-[14:22:42] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Trthanh1006
-[14:22:42] [localSession-7-1/INFO]: [Geyser-Spigot] Trthanh1006 (logged in as: Trthanh1006) has connected to the Java server
-[14:22:44] [User Authenticator #8/INFO]: UUID of player Trthanh1006 is 1c15c538-d2a7-314d-93c3-d6527b289eae
-[14:22:44] [Server thread/INFO]: Trthanh1006 joined the game
-[14:22:44] [Server thread/INFO]: Trthanh1006[/58.186.69.73:0] logged in with entity id 51777 at ([world]-1360.30001, 85.0, 386.69999)
-[14:23:32] [Server thread/WARN]: Trthanh1006 moved wrongly!
-[14:31:04] [localSession-7-1/INFO]: [Geyser-Spigot] Trthanh1006 has disconnected from the Java server because of Bedrock client disconnected
-[14:31:04] [Server thread/INFO]: Trthanh1006 lost connection: Disconnected
-[14:31:04] [Server thread/INFO]: Trthanh1006 left the game
-[14:31:52] [Async Chat Thread - #27/INFO]: [Not Secure] <YarieRie> what\\
-[14:31:55] [Async Chat Thread - #28/INFO]: [Not Secure] <YarieRie> t muon
-[14:31:56] [Async Chat Thread - #28/INFO]: [Not Secure] <YarieRie> xem
-[14:31:56] [Async Chat Thread - #27/INFO]: [Not Secure] <igijtykvj> ve lay do
-[14:31:58] [Async Chat Thread - #27/INFO]: [Not Secure] <YarieRie> nha m
-[14:32:01] [Async Chat Thread - #27/INFO]: [Not Secure] <igijtykvj> huh
-[14:32:03] [Async Chat Thread - #27/INFO]: [Not Secure] <igijtykvj> ko qa duoc
-[14:32:06] [Async Chat Thread - #28/INFO]: [Not Secure] <igijtykvj> t chet de ve ma
-[14:32:10] [Async Chat Thread - #28/INFO]: [Not Secure] <YarieRie> muon..
-[14:32:17] [Server thread/INFO]: mrttty lost connection: Disconnected
-[14:32:17] [Server thread/INFO]: mrttty left the game
-[14:32:18] [Async Chat Thread - #27/INFO]: [Not Secure] <igijtykvj> t k co nha...
-[14:32:22] [Server thread/INFO]: igijtykvj was slain by YarieRie
-[14:37:29] [Server thread/INFO]: uncleten lost connection: Disconnected
-[14:37:29] [Server thread/INFO]: uncleten left the game
-[14:37:39] [Server thread/INFO]: ThangDoiThuong lost connection: Disconnected
-[14:37:40] [Server thread/INFO]: ThangDoiThuong left the game
-[14:39:32] [Server thread/INFO]: igijtykvj has made the advancement [Into Fire]
-[14:41:15] [Server thread/INFO]: igijtykvj lost connection: Disconnected
-[14:41:15] [Server thread/INFO]: igijtykvj left the game
-[14:42:35] [Server thread/INFO]: YarieRie lost connection: Disconnected
-[14:42:35] [Server thread/INFO]: YarieRie left the game
-[15:03:26] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Trthanh1006
-[15:03:26] [localSession-7-2/INFO]: [Geyser-Spigot] Trthanh1006 (logged in as: Trthanh1006) has connected to the Java server
-[15:03:27] [User Authenticator #9/INFO]: UUID of player Trthanh1006 is 1c15c538-d2a7-314d-93c3-d6527b289eae
-[15:03:27] [Server thread/INFO]: Trthanh1006 joined the game
-[15:03:27] [Server thread/INFO]: Trthanh1006[/14.189.127.129:0] logged in with entity id 59099 at ([world]-1363.305, 86.0, 384.6207)
-[15:03:45] [localSession-7-2/INFO]: [Geyser-Spigot] Trthanh1006 has disconnected from the Java server because of Bedrock client disconnected
-[15:03:45] [Server thread/INFO]: Trthanh1006 lost connection: Disconnected
-[15:03:45] [Server thread/INFO]: Trthanh1006 left the game
-[15:04:05] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Trthanh1006
-[15:04:05] [localSession-7-3/INFO]: [Geyser-Spigot] Trthanh1006 (logged in as: Trthanh1006) has connected to the Java server
-[15:04:05] [User Authenticator #9/INFO]: UUID of player Trthanh1006 is 1c15c538-d2a7-314d-93c3-d6527b289eae
-[15:04:05] [Server thread/INFO]: Trthanh1006 joined the game
-[15:04:05] [Server thread/INFO]: Trthanh1006[/14.189.127.129:0] logged in with entity id 59460 at ([world]-1362.471, 86.0, 384.07834)
-[15:04:55] [localSession-7-3/INFO]: [Geyser-Spigot] Trthanh1006 has disconnected from the Java server because of Bedrock client disconnected
-[15:04:55] [Server thread/INFO]: Trthanh1006 lost connection: Disconnected
-[15:04:55] [Server thread/INFO]: Trthanh1006 left the game
-[16:00:06] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Trthanh1006
-[16:00:06] [localSession-7-4/INFO]: [Geyser-Spigot] Trthanh1006 (logged in as: Trthanh1006) has connected to the Java server
-[16:00:07] [User Authenticator #10/INFO]: UUID of player Trthanh1006 is 1c15c538-d2a7-314d-93c3-d6527b289eae
-[16:00:07] [Server thread/INFO]: Trthanh1006 joined the game
-[16:00:07] [Server thread/INFO]: Trthanh1006[/14.189.127.129:0] logged in with entity id 59830 at ([world]-1361.1727, 86.0, 383.3111)
-[16:07:14] [Server thread/INFO]: Trthanh1006 was slain by Iron Golem
-[16:26:44] [localSession-7-4/INFO]: [Geyser-Spigot] Trthanh1006 has disconnected from the Java server because of Bedrock client disconnected
-[16:26:44] [Server thread/INFO]: Trthanh1006 lost connection: Disconnected
-[16:26:44] [Server thread/INFO]: Trthanh1006 left the game
-[16:27:08] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Trthanh1006
-[16:27:08] [localSession-7-1/INFO]: [Geyser-Spigot] Trthanh1006 (logged in as: Trthanh1006) has connected to the Java server
-[16:27:09] [User Authenticator #11/INFO]: UUID of player Trthanh1006 is 1c15c538-d2a7-314d-93c3-d6527b289eae
-[16:27:09] [Server thread/INFO]: Trthanh1006 joined the game
-[16:27:09] [Server thread/INFO]: Trthanh1006[/14.189.127.129:0] logged in with entity id 63322 at ([world]-1397.30001, 73.0, 400.10083)
-[16:33:59] [localSession-7-1/INFO]: [Geyser-Spigot] Trthanh1006 has disconnected from the Java server because of Bedrock client disconnected
-[16:33:59] [Server thread/INFO]: Trthanh1006 lost connection: Disconnected
-[16:33:59] [Server thread/INFO]: Trthanh1006 left the game
-[17:33:32] [Craft Scheduler Thread - 566 - DeathChest/INFO]: [DeathChest] Unable to check for updates: hangar.papermc.io
-[17:33:32] [Craft Scheduler Thread - 566 - DeathChest/INFO]: [DeathChest] To disable this message set the update checker to false in the config.yml
-[17:46:01] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Veobanhexp9898
-[17:46:01] [localSession-7-2/INFO]: [Geyser-Spigot] Veobanhexp9898 (logged in as: Veobanhexp9898) has connected to the Java server
-[17:46:02] [User Authenticator #12/INFO]: UUID of player Veobanhexp9898 is 9c4f503e-bfe7-3ded-8a92-b70d75c2e576
-[17:46:02] [Server thread/INFO]: Disconnecting Veobanhexp9898 (/192.168.1.44:0): Go ask monki king to join bobo!
-[17:46:02] [localSession-7-2/INFO]: [Geyser-Spigot] Veobanhexp9898 has disconnected from the Java server because of Go ask monki king to join bobo!
-[17:46:02] [Server thread/INFO]: Veobanhexp9898 (/192.168.1.44:0) lost connection: Go ask monki king to join bobo!
-[17:50:49] [Server thread/INFO]: Unknown or incomplete command, see below for error
-.  |....<--[HERE]
+[00:00:34] [Server thread/INFO]: igijtykvj fell from a high place
+[00:01:22] [Async Chat Thread - #77/INFO]: [Not Secure] <igijtykvj> ngu di ae
+[00:01:28] [Async Chat Thread - #77/INFO]: [Not Secure] <YarieRie> bobo
+[00:01:37] [Async Chat Thread - #78/INFO]: [Not Secure] <YarieRie> t can vi tri end portal..
+[00:01:41] [Async Chat Thread - #78/INFO]: [Not Secure] <igijtykvj> huh
+[00:01:43] [Async Chat Thread - #78/INFO]: [Not Secure] <igijtykvj> lam j
+[00:01:46] [Async Chat Thread - #78/INFO]: [Not Secure] <igijtykvj> tuong m co roi
+[00:01:53] [Async Chat Thread - #78/INFO]: [Not Secure] <YarieRie> lay dau rong
+[00:01:53] [Async Chat Thread - #78/INFO]: [Not Secure] <igijtykvj> len tren bedrock di
+[00:01:56] [Async Chat Thread - #78/INFO]: [Not Secure] <igijtykvj> a
+[00:01:58] [Async Chat Thread - #78/INFO]: [Not Secure] <igijtykvj> khong co
+[00:02:04] [Async Chat Thread - #78/INFO]: [Not Secure] <igijtykvj> T.T
+[00:02:07] [Async Chat Thread - #78/INFO]: [Not Secure] <YarieRie> i la
+[00:02:09] [Async Chat Thread - #78/INFO]: [Not Secure] <YarieRie> vi tri
+[00:02:11] [Async Chat Thread - #78/INFO]: [Not Secure] <YarieRie> cai end
+[00:02:12] [Async Chat Thread - #78/INFO]: [Not Secure] <igijtykvj> t ko o giuong
+[00:02:13] [Async Chat Thread - #78/INFO]: [Not Secure] <YarieRie> portal
+[00:03:10] [Async Chat Thread - #78/INFO]: [Not Secure] <igijtykvj> ngu di pls
+[00:03:12] [Async Chat Thread - #78/INFO]: [Not Secure] <igijtykvj> T.T
+[00:03:18] [Server thread/INFO]: YarieRie lost connection: Disconnected
+[00:03:18] [Server thread/INFO]: YarieRie left the game
+[00:04:26] [Async Chat Thread - #79/INFO]: [Not Secure] <igijtykvj> ngu cmm di
+[00:04:29] [Async Chat Thread - #79/INFO]: [Not Secure] <igijtykvj> t.t
+[00:04:39] [Async Chat Thread - #79/INFO]: [Not Secure] <igijtykvj> sm
+[00:04:40] [Async Chat Thread - #79/INFO]: [Not Secure] <igijtykvj> dm
+[00:04:46] [Async Chat Thread - #79/INFO]: [Not Secure] <igijtykvj> ti cc
+[00:04:50] [User Authenticator #15/INFO]: UUID of player YarieRie is 0366cb7f-b754-3157-ad95-68face366bce
+[00:04:51] [Server thread/INFO]: YarieRie joined the game
+[00:04:51] [Server thread/INFO]: YarieRie[/42.116.243.47:35986] logged in with entity id 132095 at ([world]-1320.0950986612625, 115.0, 473.453874949589)
+[00:04:57] [Async Chat Thread - #80/INFO]: [Not Secure] <igijtykvj> day cc
+[00:04:58] [Async Chat Thread - #79/INFO]: [Not Secure] <igijtykvj> nhanh
+[00:05:00] [Async Chat Thread - #79/INFO]: [Not Secure] <igijtykvj> t.t
+[00:05:04] [Async Chat Thread - #80/INFO]: [Not Secure] <igijtykvj> kich luon bh
+[00:06:12] [Server thread/INFO]: igijtykvj issued server command: /gamemode creative
+[00:06:12] [Server thread/INFO]: [igijtykvj: Set own game mode to Creative Mode]
+[00:06:16] [Async Chat Thread - #81/INFO]: [Not Secure] <igijtykvj> ?
+[00:06:24] [Server thread/INFO]: igijtykvj issued server command: /kick uncleten
+[00:06:24] [Server thread/INFO]: uncleten lost connection: Kicked by an operator
+[00:06:24] [Server thread/INFO]: uncleten left the game
+[00:06:24] [Server thread/INFO]: [igijtykvj: Kicked uncleten: Kicked by an operator]
+[00:06:42] [localSession-7-1/INFO]: [Geyser-Spigot] Trthanh1006 has disconnected from the Java server because of Bedrock client disconnected
+[00:06:42] [Server thread/INFO]: Trthanh1006 lost connection: Disconnected
+[00:06:42] [Server thread/INFO]: Trthanh1006 left the game
+[00:07:00] [Server thread/INFO]: igijtykvj issued server command: /ban uncleten
+[00:07:00] [Server thread/INFO]: [igijtykvj: Banned uncleten: Banned by an operator.]
+[00:07:12] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
+[00:07:12] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
+[00:07:18] [Async Chat Thread - #83/INFO]: [Not Secure] <YarieRie> mo
+[00:07:22] [Async Chat Thread - #83/INFO]: [Not Secure] <YarieRie> old town road di
+[00:11:44] [Server thread/INFO]: furinabu lost connection: Disconnected
+[00:11:44] [Server thread/INFO]: furinabu left the game
+[00:14:11] [Server thread/INFO]: igijtykvj issued server command: /gamemode creative
+[00:14:11] [Server thread/INFO]: [igijtykvj: Set own game mode to Creative Mode]
+[00:16:41] [Async Chat Thread - #85/INFO]: [Not Secure] <YarieRie> e
+[00:16:44] [Async Chat Thread - #85/INFO]: [Not Secure] <igijtykvj> huh
+[00:17:01] [Async Chat Thread - #85/INFO]: [Not Secure] <YarieRie> nho cai cong the end full 12 mat o dau ko
+[00:17:06] [Async Chat Thread - #85/INFO]: [Not Secure] <YarieRie> t quen me r
+[00:17:18] [Async Chat Thread - #85/INFO]: [Not Secure] <igijtykvj> t co cong cua t
+[00:17:21] [Async Chat Thread - #85/INFO]: [Not Secure] <YarieRie> whe
+[00:17:27] [Async Chat Thread - #85/INFO]: [Not Secure] <igijtykvj> len tren bedrock di
+[00:17:32] [Async Chat Thread - #85/INFO]: [Not Secure] <igijtykvj> r chay toi
+[00:17:36] [Async Chat Thread - #85/INFO]: [Not Secure] <YarieRie> cong nether o nha a
+[00:17:39] [Async Chat Thread - #85/INFO]: [Not Secure] <igijtykvj> 441 286
+[00:17:43] [Async Chat Thread - #85/INFO]: [Not Secure] <igijtykvj> huh
+[00:17:48] [Async Chat Thread - #85/INFO]: [Not Secure] <YarieRie> ...
+[00:17:50] [Async Chat Thread - #85/INFO]: [Not Secure] <igijtykvj> noi chung la ben tren tang bedrock ay
+[00:17:51] [Async Chat Thread - #85/INFO]: [Not Secure] <YarieRie> ok
+[00:17:56] [Async Chat Thread - #85/INFO]: [Not Secure] <YarieRie> lai phai
+[00:18:00] [Async Chat Thread - #85/INFO]: [Not Secure] <YarieRie> dung thuyen
+[00:18:02] [Async Chat Thread - #85/INFO]: [Not Secure] <YarieRie> a
+[00:18:08] [Async Chat Thread - #85/INFO]: [Not Secure] <igijtykvj> dung cai
+[00:18:09] [Async Chat Thread - #85/INFO]: [Not Secure] <igijtykvj> xe mo
+[00:18:11] [Async Chat Thread - #85/INFO]: [Not Secure] <igijtykvj> better
+[00:18:15] [Async Chat Thread - #86/INFO]: [Not Secure] <YarieRie> =))
+[00:18:20] [Async Chat Thread - #86/INFO]: [Not Secure] <igijtykvj> :3
+[00:18:26] [Async Chat Thread - #86/INFO]: [Not Secure] <igijtykvj> xe mo chi can 1 block th
+[00:19:00] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
+[00:19:00] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
+[00:20:24] [Async Chat Thread - #87/INFO]: [Not Secure] <YarieRie> t con
+[00:20:29] [Async Chat Thread - #88/INFO]: [Not Secure] <YarieRie> ko co cai xe mo nao
+[00:20:40] [Async Chat Thread - #88/INFO]: [Not Secure] <igijtykvj> craft@@
+[00:20:45] [Async Chat Thread - #88/INFO]: [Not Secure] <YarieRie> con
+[00:20:46] [Server thread/INFO]: igijtykvj issued server command: /gamemode creative
+[00:20:46] [Server thread/INFO]: [igijtykvj: Set own game mode to Creative Mode]
+[00:20:48] [Async Chat Thread - #88/INFO]: [Not Secure] <YarieRie> rail nx
+[00:20:49] [Async Chat Thread - #88/INFO]: [Not Secure] <YarieRie> @@
+[00:22:24] [Async Chat Thread - #89/INFO]: [Not Secure] <YarieRie> bon no cung xay tren bedrock a
+[00:22:33] [Async Chat Thread - #89/INFO]: [Not Secure] <igijtykvj> huh
+[00:22:35] [Async Chat Thread - #89/INFO]: [Not Secure] <igijtykvj> ko
+[00:22:41] [Async Chat Thread - #89/INFO]: [Not Secure] <YarieRie> a oge
+[00:22:43] [Async Chat Thread - #89/INFO]: [Not Secure] <YarieRie> cang tot
+[00:25:18] [Async Chat Thread - #91/INFO]: [Not Secure] <YarieRie> wait
+[00:25:28] [Async Chat Thread - #91/INFO]: [Not Secure] <YarieRie> tren bedrock co spawn ghast k
+[00:25:32] [Async Chat Thread - #91/INFO]: [Not Secure] <igijtykvj> co
+[00:25:33] [Async Chat Thread - #91/INFO]: [Not Secure] <igijtykvj> nma
+[00:25:36] [Async Chat Thread - #91/INFO]: [Not Secure] <YarieRie> cdit
+[00:25:38] [Async Chat Thread - #91/INFO]: [Not Secure] <igijtykvj> ko spawn o bedrock
+[00:25:41] [Async Chat Thread - #91/INFO]: [Not Secure] <igijtykvj> fai co netherack
+[00:25:48] [Async Chat Thread - #91/INFO]: [Not Secure] <igijtykvj> nen k co ghash
+[00:25:51] [Async Chat Thread - #91/INFO]: [Not Secure] <igijtykvj> ghast
+[00:25:55] [Async Chat Thread - #91/INFO]: [Not Secure] <YarieRie> iki
+[00:27:48] [Async Chat Thread - #93/INFO]: [Not Secure] <YarieRie> dung enderpearl dc k nhi
+[00:27:53] [Async Chat Thread - #95/INFO]: [Not Secure] <igijtykvj> chac la duoc ay
+[00:29:19] [Async Chat Thread - #96/INFO]: [Not Secure] <YarieRie> hmm
+[00:29:20] [Async Chat Thread - #96/INFO]: [Not Secure] <YarieRie> hay la
+[00:29:23] [Async Chat Thread - #96/INFO]: [Not Secure] <YarieRie> dung cai
+[00:29:29] [Async Chat Thread - #97/INFO]: [Not Secure] <YarieRie> qua o duoi the end
+[00:31:26] [Async Chat Thread - #98/INFO]: [Not Secure] <YarieRie> co can chain k
+[00:31:32] [Async Chat Thread - #99/INFO]: [Not Secure] <igijtykvj> co
+[00:31:35] [Async Chat Thread - #99/INFO]: [Not Secure] <igijtykvj> 2 chain
+[00:31:41] [Async Chat Thread - #99/INFO]: [Not Secure] <igijtykvj> 1 rail
+[00:31:45] [Async Chat Thread - #99/INFO]: [Not Secure] <igijtykvj> 1 pistol
+[00:31:50] [Async Chat Thread - #99/INFO]: [Not Secure] <igijtykvj> 1 cart
+[00:37:03] [Server thread/INFO]: igijtykvj issued server command: /gamemode spectator
+[00:37:03] [Server thread/INFO]: [igijtykvj: Set own game mode to Spectator Mode]
+[00:37:05] [Server thread/INFO]: igijtykvj issued server command: /tp YarieRie
+[00:37:05] [Server thread/INFO]: [igijtykvj: Teleported igijtykvj to YarieRie]
+[00:37:05] [Server thread/WARN]: igijtykvj moved too quickly! -4863.192161906726,-3.7602966704668574,-1884.103481519456
+[00:37:40] [Async Chat Thread - #100/INFO]: [Not Secure] <YarieRie> bro
+[00:37:48] [Async Chat Thread - #100/INFO]: [Not Secure] <YarieRie> m thuc su dung 1 cai trick tu 2 nam trc
+[00:37:50] [Async Chat Thread - #100/INFO]: [Not Secure] <igijtykvj> huh
+[00:37:53] [Async Chat Thread - #100/INFO]: [Not Secure] <igijtykvj> fr fr
+[00:38:13] [Async Chat Thread - #100/INFO]: [Not Secure] <igijtykvj> k thi ender peal di
+[00:38:40] [Server thread/INFO]: igijtykvj issued server command: /tp igijtykvj 3571.0 75 2407.0
+[00:38:40] [Server thread/INFO]: [igijtykvj: Teleported igijtykvj to 3571.000000, 75.000000, 2407.000000]
+[00:38:40] [Server thread/WARN]: igijtykvj moved too quickly! 4860.13849645506,0.8886758174253373,1905.8852270842538
+[00:38:40] [Server thread/WARN]: igijtykvj moved too quickly! 4860.13849645506,0.8886758174253373,1905.8852270842538
+[00:38:45] [Server thread/INFO]: igijtykvj issued server command: /gamemode creative
+[00:38:45] [Server thread/INFO]: [igijtykvj: Set own game mode to Creative Mode]
+[00:39:47] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
+[00:39:47] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
+[00:44:40] [Server thread/INFO]: igijtykvj issued server command: /gamemode creative
+[00:44:40] [Server thread/INFO]: [igijtykvj: Set own game mode to Creative Mode]
+[00:49:37] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> vili
+[00:49:40] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> cong cua m
+[00:49:43] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> ngay canh t luon
+[00:49:45] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> @@
+[00:49:48] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> huh
+[00:49:49] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> a
+[00:49:52] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> cai cong do
+[00:49:54] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> jes
+[00:49:58] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> t dung toi lang chung m
+[00:50:00] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> idk
+[00:50:03] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
+[00:50:03] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
+[00:50:05] [Server thread/INFO]: igijtykvj issued server command: /gamemode creative
+[00:50:05] [Server thread/INFO]: [igijtykvj: Set own game mode to Creative Mode]
+[00:50:16] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
+[00:50:16] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
+[00:50:37] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> cdit...
+[00:50:38] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> vua
+[00:50:40] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> huh
+[00:50:41] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> di vao cai cong day
+[00:50:43] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> where u
+[00:50:44] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> =-=
+[00:50:46] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> vlxx
+[00:50:47] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> xong ve overworld r
+[00:50:49] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> kho cuu
+[00:50:52] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> tp t lai phat...
+[00:50:53] [Server thread/INFO]: igijtykvj issued server command: /gamemode creative
+[00:50:53] [Server thread/INFO]: [igijtykvj: Set own game mode to Creative Mode]
+[00:51:01] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
+[00:51:01] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
+[00:51:05] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> cong
+[00:51:09] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> the end
+[00:51:17] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> o cho 467 402 co
+[00:51:22] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> i t la
+[00:51:26] [Server thread/INFO]: igijtykvj issued server command: /tp YarieRie igijtykvj
+[00:51:26] [Server thread/INFO]: [igijtykvj: Teleported YarieRie to igijtykvj]
+[00:51:30] [Async Chat Thread - #103/INFO]: [Not Secure] <YarieRie> oki
+[00:51:37] [Async Chat Thread - #103/INFO]: [Not Secure] <igijtykvj> wtf
+[00:51:40] [Async Chat Thread - #103/INFO]: [Not Secure] <igijtykvj> here
+[00:51:43] [Async Chat Thread - #103/INFO]: [Not Secure] <igijtykvj> bobo
+[00:51:47] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> nani
+[00:51:53] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> go here
+[00:52:10] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> wait
+[00:52:12] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> xem
+[00:52:15] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> tutorial
+[00:52:17] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> may farm
+[00:52:18] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> da
+[00:52:22] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> huh
+[00:52:26] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> tuong tuvo lam r
+[00:52:29] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> lam cai
+[00:52:31] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> enderman
+[00:52:33] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> cho no chat
+[00:52:43] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> iki
+[00:52:43] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> cua thg tu la farm j
+[00:52:46] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> review phat
+[00:52:56] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> da
+[00:53:00] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> 75k/h
+[00:53:02] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> cai farm
+[00:53:06] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> cobble stone
+[00:53:06] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> quai co ma..
+[00:53:09] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> nununu
+[00:53:13] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> huh
+[00:53:15] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> iki
+[00:53:17] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> idk
+[00:53:19] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> go du
+[00:53:21] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> idk
+[00:53:22] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> i
+[00:53:24] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> farm mia
+[00:53:26] [Server thread/INFO]: igijtykvj issued server command: /gamemode creative
+[00:53:26] [Server thread/INFO]: [igijtykvj: Set own game mode to Creative Mode]
+[00:53:28] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> iki
+[00:53:43] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> danh may con lon
+[00:53:48] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> hay danh may thang da den nhi
+[00:54:16] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> t nen lam cai farm nao
+[00:54:21] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> huh
+[00:54:22] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> lon di
+[00:54:24] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> vang
+[00:54:26] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> cho oai
+[00:54:32] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> oki
+[00:54:44] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> cho tu vo
+[00:54:48] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> xay dc cai may farm
+[00:54:55] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> xong ngoi tu tham
+[00:55:01] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> :skull:
+[00:55:01] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> =)))))))))
+[00:55:04] [Async Chat Thread - #102/INFO]: [Not Secure] <igijtykvj> cay tht
+[00:55:34] [Async Chat Thread - #102/INFO]: [Not Secure] <YarieRie> *trong 1 ngay anh em minh manh ra biet bao nhieu*
+[00:55:53] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
+[00:55:53] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
+[00:57:50] [Async Chat Thread - #104/INFO]: [Not Secure] <YarieRie> cit
+[00:57:58] [Async Chat Thread - #104/INFO]: [Not Secure] <YarieRie> cai farm lon
+[00:57:59] [Async Chat Thread - #104/INFO]: [Not Secure] <YarieRie> can
+[00:58:02] [Async Chat Thread - #104/INFO]: [Not Secure] <YarieRie> trung rua
+[00:58:04] [Async Chat Thread - #104/INFO]: [Not Secure] <YarieRie> chiu chet
+[01:00:19] [Server thread/INFO]: igijtykvj issued server command: /gamemode creative
+[01:00:19] [Server thread/INFO]: [igijtykvj: Set own game mode to Creative Mode]
+[01:00:29] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
+[01:00:29] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
+[01:04:39] [Server thread/INFO]: igijtykvj issued server command: /gamemode creative
+[01:04:39] [Server thread/INFO]: [igijtykvj: Set own game mode to Creative Mode]
+[01:05:19] [Server thread/INFO]: igijtykvj issued server command: /gamemode survival
+[01:05:19] [Server thread/INFO]: [igijtykvj: Set own game mode to Survival Mode]
+[01:05:49] [Server thread/INFO]: YarieRie lost connection: Disconnected
+[01:05:49] [Server thread/INFO]: YarieRie left the game
+[01:08:14] [Server thread/INFO]: igijtykvj lost connection: Disconnected
+[01:08:14] [Server thread/INFO]: igijtykvj left the game
+[01:27:53] [Server thread/INFO]: Stopping server
+[01:27:53] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.10
+[01:27:53] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.3-SNAPSHOT
+[01:27:53] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[01:27:53] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[01:27:53] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.3
+[01:27:53] [Server thread/INFO]: [TreeFella] Disabling TreeFella v1.2
+[01:27:53] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
+[01:27:53] [Server thread/INFO]: [InstantRestock] Disabling InstantRestock v2.4.3
+[01:27:53] [Server thread/INFO]: Saving players
+[01:27:53] [Server thread/INFO]: Saving worlds
+[01:27:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:27:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:27:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:27:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:27:53] [Server thread/INFO]: [ChunkHolderManager] Saved 16 block chunks, 62 entity chunks, 0 poi chunks in world 'world' in 0.07s
+[01:27:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:27:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:27:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:27:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:27:53] [Server thread/INFO]: [ChunkHolderManager] Saved 58 block chunks, 127 entity chunks, 0 poi chunks in world 'world_nether' in 0.12s
+[01:27:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:27:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:27:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:27:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:27:54] [Server thread/INFO]: [ChunkHolderManager] Saved 21 block chunks, 1 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[01:27:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:27:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:27:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:27:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

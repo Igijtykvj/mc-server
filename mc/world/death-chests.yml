@@ -1,1 +1,189 @@
-chests: []
+chests:
+- createdAt: 1728884937356
+  protected: false
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -1110.0
+    y: -4.0
+    z: 395.0
+    pitch: 0.0
+    yaw: 0.0
+  expireAt: 1728885537356
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: OAK_SAPLING
+    amount: 5
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COBBLED_DEEPSLATE_STAIRS
+    amount: 28
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ARROW
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GRAY_WOOL
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COBBLESTONE
+    amount: 28
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: MUSIC_DISC_13
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: PEONY
+  player: c0de936b-7a76-33ae-83be-d3187dbc94ad
+- createdAt: 1728885346595
+  protected: false
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -1201.0
+    y: -33.0
+    z: 502.0
+    pitch: 0.0
+    yaw: 0.0
+  expireAt: -1
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 30
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 83
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 69
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 98
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: STRING
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COBBLED_DEEPSLATE
+    amount: 17
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: BONE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: WATER_BUCKET
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: WHEAT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND
+    amount: 11
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: COAL
+    amount: 35
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_INGOT
+    amount: 18
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      Damage: 315
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: STICK
+    amount: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: TORCH
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GOLD_INGOT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: ARROW
+    amount: 6
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: CRAFTING_TABLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: GUNPOWDER
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: FLINT_AND_STEEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 13
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: OAK_LOG
+    amount: 13
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: NETHERITE_INGOT
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: CAMPFIRE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 19
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 37
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 152
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      Damage: 37
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3953
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: SHIELD
+      Damage: 252
+  player: ff4ba738-710d-3ae6-8f8d-bf404be1cee6

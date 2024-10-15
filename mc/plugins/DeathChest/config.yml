@@ -14,14 +14,14 @@ duration-format: 'mm:ss'
 chest:
   # The expiration of the chest in seconds.
   # You can deactivate the expiration by setting the value to -1
-  expiration: 600
+  expiration: -1
   no-expiration-permission:
     enabled: false
     permission: 'deathchest.stays-forever'
   # If this feature is enabled all caught items will be dropped if the chest has expired.
-  drop-items-after-expiration: false
+  drop-items-after-expiration: true
   # Set this option to true if you want to protect the death chests against explosions.
-  blast-protection: false
+  blast-protection: true
 
   # This option protects the death chest against thieves if the player has the specific permission and the thief
   # not the bypass permission.
